@@ -1,0 +1,151 @@
+body{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 150%;
+/*  background-color:aliceblue; */
+}
+
+header {
+  height: 330px;
+  background-color: lightgray;
+  
+}
+
+/*nav ul{
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  position:relative;
+  top:40%;
+  list-style-type: none;
+}*/
+
+header nav {
+/*  height: 300px; */
+  width: 90%; 
+  display: flex; 
+  flex-direction: row; 
+  justify-content: space-around; 
+  position:relative;
+  align-items: center;
+/*  top: 30%; */
+} 
+
+/*ul li{
+  display:inline-block;
+  text-align: center;
+  justify-content:space-around;
+} */
+
+nav ul {
+  display: flex;
+  width: 80%;
+  justify-content: space-around;  
+  row-gap: 50px;
+  position:relative;
+  top: 45%;
+  align-items: center;
+  list-style-type: none;
+}
+
+nav img {
+  display: inline-block;
+  width: 10%; 
+  position: relative;
+  top: 20px; 
+  height: 60%;
+}
+
+header h1{
+  font-family:cursive, courier, impact;
+  
+  text-align: center;
+  color: #008b8b;
+  font-size: 300%;
+}
+
+/*header li{
+  background-color: beige;
+  display: flex;
+  width: 60%;
+  flex-direction: row;
+  justify-content: center;
+
+}*/
+
+/*header ul{
+  background-color:burlywood; 
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 80%; 
+} */
+
+main{
+  background-color:yellow;
+  display:inline-block; 
+  font-family: 'Times New Roman', Times, sans-serif;
+  font-size: 100%;
+  margin-top: 30px;
+}
+
+.gridcol {
+  display: grid;
+  grid-template-columns: 35% 35%;
+  justify-content: space-around;
+  align-items: initial;
+  row-gap: 50px;
+  column-gap: 30px;
+  background-color: white;
+}
+
+div.grid{
+  display: grid;
+  grid-template-columns: 45% 45%;
+  width: 100%;
+  justify-content:center; 
+  background-color:yellow;
+  position:relative;
+  row-gap: 30px; 
+  align-items:center;
+  column-gap: 30px;
+  top: 20px;
+  bottom: 60px;
+}
+
+div.flex {
+  display: flex;
+  flex-wrap:wrap;
+  background-color: white;
+} 
+
+img.neighbor {
+  width: 100%; 
+}
+
+footer{
+  background-color:lightgray;
+}
+
+a {
+  color: black;
+}
+
+a.focus{
+  color: purple;
+}
+
+a.hov:hover{
+  background-color: greenyellow; 
+  color: green; 
+} 
+
+/*li{
+  display: inline-block; 
+  width: 30%;
+  text-align: center;
+} */
+
+
+p{
+  line-height: 125%;
+}
